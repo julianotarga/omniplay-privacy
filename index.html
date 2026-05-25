@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="theme-color" content="#0b141a">
+<title>Política de Privacidade — OmniPlay</title>
+<meta name="description" content="Política de Privacidade do aplicativo OmniPlay Mobile. Privacy Policy for OmniPlay Mobile.">
+<style>
+  :root {
+    --bg: #ffffff;
+    --bg-alt: #f5f5f7;
+    --fg: #1d1d1f;
+    --fg-soft: #515154;
+    --fg-muted: #86868b;
+    --accent: #00a884;
+    --border: #d2d2d7;
+    --code-bg: #f5f5f7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0b141a;
+      --bg-alt: #111b21;
+      --fg: #e9edef;
+      --fg-soft: #c2c7cb;
+      --fg-muted: #8696a0;
+      --accent: #00a884;
+      --border: #2a3942;
+      --code-bg: #1f2c34;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .topbar {
+    position: sticky;
+    top: 0;
+    background: var(--bg);
+    border-bottom: 1px solid var(--border);
+    z-index: 10;
+  }
+  .topbar-inner {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  .brand {
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: -0.2px;
+    color: var(--fg);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .brand-dot {
+    width: 10px; height: 10px;
+    background: var(--accent);
+    border-radius: 50%;
+  }
+  .lang-switch {
+    display: flex;
+    gap: 4px;
+    background: var(--bg-alt);
+    border-radius: 8px;
+    padding: 4px;
+  }
+  .lang-btn {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--fg-soft);
+    font-family: inherit;
+  }
+  .lang-btn.active {
+    background: var(--bg);
+    color: var(--fg);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  }
+  main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+  }
+  h1 {
+    font-size: 32px;
+    line-height: 1.2;
+    margin: 8px 0 4px;
+    letter-spacing: -0.5px;
+  }
+  h2 {
+    font-size: 22px;
+    margin: 40px 0 12px;
+    letter-spacing: -0.3px;
+    padding-top: 8px;
+  }
+  h3 {
+    font-size: 17px;
+    margin: 24px 0 8px;
+  }
+  p, li {
+    color: var(--fg-soft);
+  }
+  .meta {
+    color: var(--fg-muted);
+    font-size: 14px;
+    margin-bottom: 32px;
+  }
+  ul, ol { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    font-size: 14px;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  th {
+    background: var(--bg-alt);
+    font-weight: 600;
+    color: var(--fg);
+  }
+  td { color: var(--fg-soft); }
+  a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  a:hover { text-decoration: underline; }
+  code {
+    background: var(--code-bg);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.92em;
+    color: var(--fg);
+  }
+  .callout {
+    background: var(--bg-alt);
+    border-left: 3px solid var(--accent);
+    padding: 14px 18px;
+    border-radius: 8px;
+    margin: 20px 0;
+    color: var(--fg-soft);
+    font-size: 14px;
+  }
+  .lang-section { display: none; }
+  .lang-section.active { display: block; }
+  footer {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 24px;
+    text-align: center;
+    color: var(--fg-muted);
+    font-size: 13px;
+    border-top: 1px solid var(--border);
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="/">
+      <span class="brand-dot"></span>
+      OmniPlay
+    </a>
+    <div class="lang-switch" role="tablist" aria-label="Idioma / Language">
+      <button class="lang-btn active" data-lang="pt-BR" type="button">PT-BR</button>
+      <button class="lang-btn" data-lang="en" type="button">EN</button>
+    </div>
+  </div>
+</div>
+
+<main>
+
+<!-- ============================== PT-BR ============================== -->
+<section class="lang-section active" data-lang="pt-BR">
+
+  <h1>Política de Privacidade</h1>
+  <p class="meta">Última atualização: 23 de maio de 2026 · Versão 1.0</p>
+
+  <h2>1. Quem somos</h2>
+  <p>Esta Política descreve como a <strong>Netplay Tecnologia LTDA</strong> (CNPJ XX.XXX.XXX/0001-XX), doravante "<strong>Netplay</strong>" ou "<strong>nós</strong>", coleta, utiliza, armazena e protege os dados pessoais dos usuários do aplicativo móvel <strong>OmniPlay</strong> (doravante "<strong>Aplicativo</strong>") quando você o utiliza no contexto profissional como atendente vinculado a uma empresa cliente da plataforma OmniPlay.</p>
+  <p>A Netplay atua como <strong>operadora</strong> dos dados pessoais dos clientes finais (os contatos que recebem atendimento). O <strong>controlador</strong> desses dados é a empresa cliente que utiliza a plataforma. Em relação aos dados dos próprios atendentes (você), a Netplay atua como <strong>controladora</strong>.</p>
+  <p>Esta Política está em conformidade com a <strong>Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018 — LGPD)</strong>.</p>
+
+  <h2>2. Quem pode usar o Aplicativo</h2>
+  <p>O OmniPlay Mobile é uma ferramenta corporativa de atendimento omnichannel destinada exclusivamente a <strong>atendentes profissionais</strong>. Não se destina a consumidores finais nem a menores de 18 anos.</p>
+  <p>Para usar o Aplicativo, é necessário possuir credenciais corporativas fornecidas pelo administrador da empresa em que você trabalha.</p>
+
+  <h2>3. Quais dados coletamos</h2>
+
+  <h3>3.1. Dados que você fornece diretamente</h3>
+  <ul>
+    <li><strong>Dados de autenticação:</strong> e-mail corporativo e senha.</li>
+    <li><strong>Dados de perfil:</strong> nome, foto (opcional), empresa(s) vinculada(s) e função.</li>
+    <li><strong>Conteúdo de atendimento:</strong> mensagens de texto, fotos, vídeos, áudios, documentos, localizações e contatos enviados/recebidos pelos canais configurados (WhatsApp Business API, Instagram, Facebook Messenger, e-mail, chat ao vivo etc).</li>
+  </ul>
+
+  <h3>3.2. Dados coletados automaticamente</h3>
+  <ul>
+    <li><strong>Token de notificação push:</strong> identificador único do APNs/FCM, associado ao seu dispositivo.</li>
+    <li><strong>Identificador do dispositivo:</strong> modelo, sistema operacional e versão do app, para diagnóstico técnico.</li>
+    <li><strong>Dados de uso operacional:</strong> registros de atendimentos abertos, mensagens enviadas e ações realizadas, para auditoria e métricas.</li>
+    <li><strong>Status de presença:</strong> "online", "digitando" e "última atividade" visíveis a outros usuários da mesma empresa.</li>
+  </ul>
+
+  <h3>3.3. Dados que NÃO coletamos</h3>
+  <ul>
+    <li>Não usamos ferramentas de analytics de terceiros (Google Analytics, Facebook Pixel, Mixpanel etc).</li>
+    <li>Não rastreamos sua atividade fora do Aplicativo.</li>
+    <li>Não acessamos contatos, fotos, microfone, câmera ou localização sem sua ação explícita.</li>
+    <li>Não vendemos dados a terceiros.</li>
+  </ul>
+
+  <h2>4. Para que utilizamos seus dados</h2>
+  <table>
+    <thead><tr><th>Finalidade</th><th>Base legal (LGPD)</th></tr></thead>
+    <tbody>
+      <tr><td>Autenticar você e manter sua sessão</td><td>Execução de contrato</td></tr>
+      <tr><td>Entregar mensagens em tempo real (push, in-app)</td><td>Execução de contrato</td></tr>
+      <tr><td>Distribuir e atribuir atendimentos conforme regras da empresa</td><td>Execução de contrato</td></tr>
+      <tr><td>Armazenar histórico para consulta posterior</td><td>Execução de contrato + obrigação legal</td></tr>
+      <tr><td>Diagnosticar erros e melhorar o app</td><td>Legítimo interesse</td></tr>
+      <tr><td>Cumprir obrigações legais (fiscais, regulatórias)</td><td>Cumprimento de obrigação legal</td></tr>
+    </tbody>
+  </table>
+
+  <h2>5. Permissões do dispositivo</h2>
+  <p>Todas as permissões solicitadas têm uso justificado e podem ser revogadas em <strong>Ajustes do iPhone → OmniPlay</strong>:</p>
+  <table>
+    <thead><tr><th>Permissão</th><th>Para que serve</th></tr></thead>
+    <tbody>
+      <tr><td>Câmera</td><td>Tirar foto para anexar em atendimentos</td></tr>
+      <tr><td>Fotos (galeria)</td><td>Selecionar mídia da galeria para enviar</td></tr>
+      <tr><td>Salvar fotos</td><td>Salvar mídias recebidas dos clientes</td></tr>
+      <tr><td>Microfone</td><td>Gravar mensagem de áudio</td></tr>
+      <tr><td>Localização (durante uso)</td><td>Compartilhar localização com cliente quando você optar</td></tr>
+      <tr><td>Contatos</td><td>Selecionar contato para compartilhar quando você optar</td></tr>
+      <tr><td>Face ID / Touch ID</td><td>Proteger acesso ao app (opcional)</td></tr>
+      <tr><td>Notificações</td><td>Avisar sobre novas mensagens</td></tr>
+    </tbody>
+  </table>
+
+  <h2>6. Notificações push</h2>
+  <p>Quando você habilita notificações, o Aplicativo registra um token único do seu dispositivo nos servidores da OmniPlay. Esse token é usado <strong>exclusivamente</strong> para entregar notificações via Apple Push Notification Service (APNs) — serviço operado pela Apple Inc.</p>
+  <p>O token é descartado quando você faz logout ou desinstala o app. Você pode desativar todas as notificações em <strong>Perfil → Notificações → Notificações do app</strong>.</p>
+
+  <h2>7. Com quem compartilhamos seus dados</h2>
+  <p>A Netplay <strong>não vende</strong> dados pessoais. Compartilhamos apenas com:</p>
+  <ul>
+    <li><strong>Sua empresa empregadora:</strong> conforme permissões e papéis configurados.</li>
+    <li><strong>Provedores de infraestrutura:</strong> Apple Inc. (APNs), Meta Platforms Inc. (WhatsApp Business API), provedores de hospedagem em nuvem. Todos com cláusulas contratuais de proteção de dados.</li>
+    <li><strong>Autoridades públicas:</strong> mediante ordem judicial ou requisição legal vinculante.</li>
+  </ul>
+
+  <h2>8. Onde seus dados são armazenados</h2>
+  <p>Os dados são armazenados em servidores no <strong>Brasil</strong>, em infraestrutura compatível com a LGPD. Operações específicas podem envolver transferência internacional (ex: APNs/Apple) sempre em condições que respeitam os direitos do titular.</p>
+
+  <h2>9. Por quanto tempo retemos os dados</h2>
+  <ul>
+    <li><strong>Autenticação ativa:</strong> enquanto sua conta estiver ativa.</li>
+    <li><strong>Histórico de atendimentos:</strong> conforme política da empresa cliente, com mínimo de 6 meses por obrigações fiscais quando aplicável.</li>
+    <li><strong>Token de notificação push:</strong> descartado em até 24h após logout ou inatividade prolongada.</li>
+    <li><strong>Logs técnicos:</strong> até 90 dias, depois anonimizados ou descartados.</li>
+  </ul>
+
+  <h2>10. Seus direitos (LGPD Art. 18)</h2>
+  <p>Você tem direito a, a qualquer momento:</p>
+  <ul>
+    <li>Confirmar a existência de tratamento dos seus dados</li>
+    <li>Acessar seus dados pessoais</li>
+    <li>Corrigir dados incompletos, inexatos ou desatualizados</li>
+    <li>Anonimizar, bloquear ou eliminar dados desnecessários</li>
+    <li>Solicitar a portabilidade dos seus dados</li>
+    <li>Eliminar dados tratados com base no consentimento</li>
+    <li>Revogar consentimento previamente fornecido</li>
+    <li>Obter informações sobre com quem compartilhamos seus dados</li>
+  </ul>
+  <div class="callout">
+    Para exercer qualquer desses direitos, escreva para <a href="mailto:dpo@netplay.net.br">dpo@netplay.net.br</a> ou pelo painel web em <strong>Perfil → Privacidade</strong>. Responderemos em até 15 dias.
+  </div>
+
+  <h2>11. Segurança</h2>
+  <ul>
+    <li><strong>Criptografia em trânsito:</strong> HTTPS/TLS 1.2+ em todas as comunicações.</li>
+    <li><strong>Criptografia em repouso:</strong> tokens no Apple Keychain (Secure Enclave); bancos com AES-256.</li>
+    <li><strong>Autenticação:</strong> senhas com bcrypt; suporte a biometria (Face ID/Touch ID).</li>
+    <li><strong>Controle de acesso:</strong> sistema granular de papéis e auditoria de ações sensíveis.</li>
+    <li><strong>Monitoramento contínuo:</strong> detecção de anomalias, backup diário, plano de continuidade.</li>
+  </ul>
+
+  <h2>12. Cookies e tecnologias similares</h2>
+  <p>O Aplicativo móvel <strong>não utiliza cookies</strong>. Usa armazenamento local (AsyncStorage e SecureStore do iOS) exclusivamente para sessão, preferências (tema, notificações, idioma) e cache local de mensagens.</p>
+
+  <h2>13. Alterações nesta Política</h2>
+  <p>Podemos atualizar esta Política periodicamente. Mudanças relevantes serão notificadas por e-mail e por aviso no Aplicativo. A versão atual está sempre disponível em <a href="https://omniplay.com.br/privacidade">omniplay.com.br/privacidade</a>.</p>
+
+  <h2>14. Encarregado de Dados (DPO)</h2>
+  <p><strong>E-mail:</strong> <a href="mailto:dpo@netplay.net.br">dpo@netplay.net.br</a></p>
+
+  <h2>15. Autoridade Nacional de Proteção de Dados (ANPD)</h2>
+  <p>Você pode apresentar reclamação à ANPD sobre o tratamento dos seus dados. Mais informações em <a href="https://www.gov.br/anpd" target="_blank" rel="noopener">gov.br/anpd</a>.</p>
+
+  <h2>16. Contato</h2>
+  <ul>
+    <li><strong>Privacidade:</strong> <a href="mailto:privacidade@netplay.net.br">privacidade@netplay.net.br</a></li>
+    <li><strong>Suporte:</strong> <a href="mailto:suporte@netplay.net.br">suporte@netplay.net.br</a></li>
+    <li><strong>Website:</strong> <a href="https://omniplay.com.br">omniplay.com.br</a></li>
+  </ul>
+
+</section>
+
+<!-- ============================== EN ============================== -->
+<section class="lang-section" data-lang="en">
+
+  <h1>Privacy Policy</h1>
+  <p class="meta">Last updated: May 23, 2026 · Version 1.0</p>
+
+  <h2>1. Who we are</h2>
+  <p>This Policy describes how <strong>Netplay Tecnologia LTDA</strong> (CNPJ XX.XXX.XXX/0001-XX), hereinafter "<strong>Netplay</strong>" or "<strong>we</strong>", collects, uses, stores, and protects the personal data of users of the <strong>OmniPlay</strong> mobile application (hereinafter "<strong>Application</strong>") when used in a professional context as a support agent at a company that subscribes to the OmniPlay platform.</p>
+  <p>Netplay acts as a <strong>data processor</strong> for end-customer personal data. The <strong>data controller</strong> for that data is the client company. For data related to support agents themselves (you), Netplay acts as the <strong>data controller</strong>.</p>
+  <p>This Policy complies with Brazil's <strong>General Data Protection Law (LGPD)</strong> and incorporates GDPR principles for international users.</p>
+
+  <h2>2. Who can use the Application</h2>
+  <p>OmniPlay Mobile is a corporate omnichannel customer service tool intended exclusively for <strong>professional support agents</strong>. Not intended for end consumers nor users under 18.</p>
+  <p>To use the Application, you must have corporate credentials provided by the administrator of the company you work for.</p>
+
+  <h2>3. What data we collect</h2>
+
+  <h3>3.1. Data you provide directly</h3>
+  <ul>
+    <li><strong>Authentication data:</strong> corporate email and password.</li>
+    <li><strong>Profile data:</strong> name, photo (optional), associated company(ies), and role.</li>
+    <li><strong>Support content:</strong> text messages, photos, videos, audio, documents, locations, and contacts sent/received through configured channels (WhatsApp Business API, Instagram, Facebook Messenger, email, live chat, etc.).</li>
+  </ul>
+
+  <h3>3.2. Data collected automatically</h3>
+  <ul>
+    <li><strong>Push notification token:</strong> unique APNs/FCM identifier associated with your device.</li>
+    <li><strong>Device identifier:</strong> model, operating system, and app version, for technical diagnostics.</li>
+    <li><strong>Operational usage data:</strong> records of tickets opened, messages sent, and actions performed, for audit and metrics.</li>
+    <li><strong>Presence status:</strong> "online", "typing", and "last active" visible to other users in the same company.</li>
+  </ul>
+
+  <h3>3.3. Data we DO NOT collect</h3>
+  <ul>
+    <li>No third-party analytics tools (Google Analytics, Facebook Pixel, Mixpanel, etc.).</li>
+    <li>No tracking of activity outside the Application.</li>
+    <li>No access to contacts, photos, microphone, camera, or location without explicit action.</li>
+    <li>No data sold to third parties.</li>
+  </ul>
+
+  <h2>4. How we use your data</h2>
+  <table>
+    <thead><tr><th>Purpose</th><th>Legal basis (LGPD)</th></tr></thead>
+    <tbody>
+      <tr><td>Authenticate you and maintain session</td><td>Contract performance</td></tr>
+      <tr><td>Deliver real-time messages (push, in-app)</td><td>Contract performance</td></tr>
+      <tr><td>Distribute and assign tickets per company rules</td><td>Contract performance</td></tr>
+      <tr><td>Store history for later consultation</td><td>Contract performance + legal obligation</td></tr>
+      <tr><td>Diagnose errors and improve the app</td><td>Legitimate interest</td></tr>
+      <tr><td>Comply with legal obligations</td><td>Legal compliance</td></tr>
+    </tbody>
+  </table>
+
+  <h2>5. Device permissions</h2>
+  <p>All requested permissions have justified use and can be revoked in <strong>iOS Settings → OmniPlay</strong>:</p>
+  <table>
+    <thead><tr><th>Permission</th><th>Purpose</th></tr></thead>
+    <tbody>
+      <tr><td>Camera</td><td>Take photo to attach to tickets</td></tr>
+      <tr><td>Photos (library)</td><td>Select media from gallery to send</td></tr>
+      <tr><td>Save photos</td><td>Save media received from customers</td></tr>
+      <tr><td>Microphone</td><td>Record audio messages</td></tr>
+      <tr><td>Location (when in use)</td><td>Share location with customer when you opt to</td></tr>
+      <tr><td>Contacts</td><td>Select contact to share when you opt to</td></tr>
+      <tr><td>Face ID / Touch ID</td><td>Protect app access (optional)</td></tr>
+      <tr><td>Notifications</td><td>Alert about new messages</td></tr>
+    </tbody>
+  </table>
+
+  <h2>6. Push notifications</h2>
+  <p>When you enable notifications, the Application registers a unique device token on OmniPlay servers. Used <strong>exclusively</strong> to deliver notifications via Apple Push Notification Service (APNs) — operated by Apple Inc.</p>
+  <p>Token is discarded when you log out or uninstall the app. You can disable all notifications in <strong>Profile → Notifications → App notifications</strong>.</p>
+
+  <h2>7. Who we share your data with</h2>
+  <p>Netplay <strong>does not sell</strong> personal data. We share only with:</p>
+  <ul>
+    <li><strong>Your employer company:</strong> per configured permissions and roles.</li>
+    <li><strong>Infrastructure providers:</strong> Apple Inc. (APNs), Meta Platforms Inc. (WhatsApp Business API), cloud hosting providers. All with contractual data protection clauses.</li>
+    <li><strong>Public authorities:</strong> upon court order or binding legal request.</li>
+  </ul>
+
+  <h2>8. Where your data is stored</h2>
+  <p>Data is stored on servers in <strong>Brazil</strong>, on LGPD-compliant infrastructure. Specific operations may involve international transfer (e.g., APNs/Apple) always under conditions that respect data subject rights.</p>
+
+  <h2>9. Retention</h2>
+  <ul>
+    <li><strong>Active authentication:</strong> while your account is active.</li>
+    <li><strong>Ticket history:</strong> per client company policy, minimum 6 months for tax obligations when applicable.</li>
+    <li><strong>Push notification token:</strong> discarded within 24h after logout or extended inactivity.</li>
+    <li><strong>Technical logs:</strong> up to 90 days, then anonymized or discarded.</li>
+  </ul>
+
+  <h2>10. Your rights (LGPD Art. 18 / GDPR Art. 12-22)</h2>
+  <p>At any time, you have the right to:</p>
+  <ul>
+    <li>Confirm the existence of data processing</li>
+    <li>Access your personal data</li>
+    <li>Correct incomplete, inaccurate, or outdated data</li>
+    <li>Anonymize, block, or delete unnecessary data</li>
+    <li>Request portability of your data</li>
+    <li>Delete data processed based on consent</li>
+    <li>Withdraw previously provided consent</li>
+    <li>Obtain information about who we share your data with</li>
+  </ul>
+  <div class="callout">
+    To exercise any of these rights, contact <a href="mailto:dpo@netplay.net.br">dpo@netplay.net.br</a> or the web panel at <strong>Profile → Privacy</strong>. We respond within 15 days.
+  </div>
+
+  <h2>11. Security</h2>
+  <ul>
+    <li><strong>Encryption in transit:</strong> HTTPS/TLS 1.2+ on all communications.</li>
+    <li><strong>Encryption at rest:</strong> tokens in Apple Keychain (Secure Enclave); databases with AES-256.</li>
+    <li><strong>Authentication:</strong> passwords with bcrypt; biometric support (Face ID/Touch ID).</li>
+    <li><strong>Access control:</strong> granular role system with audit of sensitive actions.</li>
+    <li><strong>Continuous monitoring:</strong> anomaly detection, daily backups, continuity plan.</li>
+  </ul>
+
+  <h2>12. Cookies and similar technologies</h2>
+  <p>The mobile Application <strong>does not use cookies</strong>. Uses local storage (AsyncStorage and iOS SecureStore) exclusively for session, preferences (theme, notifications, language) and local message cache.</p>
+
+  <h2>13. Changes to this Policy</h2>
+  <p>We may update this Policy periodically. Significant changes will be notified by email and by in-app notice. The latest version is always available at <a href="https://omniplay.com.br/privacy">omniplay.com.br/privacy</a>.</p>
+
+  <h2>14. Data Protection Officer (DPO)</h2>
+  <p><strong>Email:</strong> <a href="mailto:dpo@netplay.net.br">dpo@netplay.net.br</a></p>
+
+  <h2>15. Brazilian Data Protection Authority (ANPD)</h2>
+  <p>You may file a complaint with the ANPD regarding the processing of your data. More information at <a href="https://www.gov.br/anpd" target="_blank" rel="noopener">gov.br/anpd</a>.</p>
+
+  <h2>16. Contact</h2>
+  <ul>
+    <li><strong>Privacy:</strong> <a href="mailto:privacy@netplay.net.br">privacy@netplay.net.br</a></li>
+    <li><strong>Support:</strong> <a href="mailto:support@netplay.net.br">support@netplay.net.br</a></li>
+    <li><strong>Website:</strong> <a href="https://omniplay.com.br">omniplay.com.br</a></li>
+  </ul>
+
+</section>
+
+</main>
+
+<footer>
+  © 2026 Netplay Tecnologia LTDA · <a href="https://omniplay.com.br">omniplay.com.br</a>
+</footer>
+
+<script>
+  // Lang switcher: persiste preferência em localStorage e respeita
+  // hash (#en / #pt-BR) caso o user mande link direto pra um idioma.
+  (function() {
+    const buttons = document.querySelectorAll('.lang-btn');
+    const sections = document.querySelectorAll('.lang-section');
+    const STORAGE_KEY = 'omniplay-privacy-lang';
+
+    function setLang(lang) {
+      buttons.forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
+      sections.forEach(s => s.classList.toggle('active', s.dataset.lang === lang));
+      document.documentElement.lang = lang === 'en' ? 'en' : 'pt-BR';
+      try { localStorage.setItem(STORAGE_KEY, lang); } catch (_) {}
+      // Atualiza hash sem disparar scroll
+      if (history.replaceState) {
+        history.replaceState(null, '', '#' + lang);
+      }
+    }
+
+    // Detecta idioma inicial: hash > localStorage > navigator > pt-BR
+    let initialLang = 'pt-BR';
+    const hashLang = location.hash.replace('#', '');
+    if (hashLang === 'en' || hashLang === 'pt-BR') {
+      initialLang = hashLang;
+    } else {
+      try {
+        const stored = localStorage.getItem(STORAGE_KEY);
+        if (stored === 'en' || stored === 'pt-BR') {
+          initialLang = stored;
+        } else if (navigator.language && navigator.language.toLowerCase().startsWith('en')) {
+          initialLang = 'en';
+        }
+      } catch (_) {}
+    }
+    setLang(initialLang);
+
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => setLang(btn.dataset.lang));
+    });
+  })();
+</script>
+
+</body>
+</html>

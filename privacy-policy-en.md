@@ -5,7 +5,7 @@
 
 ## 1. Who we are
 
-This Privacy Policy describes how **Netplay Tecnologia LTDA**, registered under CNPJ XX.XXX.XXX/0001-XX, headquartered in [city/state, Brazil], hereinafter referred to as "**Netplay**" or "**we**", collects, uses, stores, and protects the personal data of users of the **OmniPlay** mobile application (hereinafter "**Application**") when used in a professional context as a support agent working at a company that subscribes to the OmniPlay platform.
+This Privacy Policy describes how **Internet Play Ltda**, registered under CNPJ 09.356.818/0001-16, headquartered in [city/state, Brazil], hereinafter referred to as "**Netplay**" or "**we**", collects, uses, stores, and protects the personal data of users of the **OmniPlay** mobile application (hereinafter "**Application**") when used in a professional context as a support agent working at a company that subscribes to the OmniPlay platform.
 
 Netplay acts as a **data processor** for end-customer personal data (the contacts who receive support), while the **data controller** for that data is the client company that uses the OmniPlay platform to provide customer support. For data related to support agents themselves (you, the Application user), Netplay acts as the **data controller**.
 
@@ -130,7 +130,7 @@ We may update this Policy periodically. When there are significant changes, you 
 - By email (to the registered corporate account)
 - By in-app notice on the next opening
 
-The latest version will always be available at **omniplay.com.br/privacy**.
+The latest version will always be available at **julianotarga.github.io/omniplay-privacy**.
 
 ## 14. Data Protection Officer (DPO)
 
@@ -148,4 +148,4 @@ For any questions about this Policy or about the processing of your data:
 
 - **Email:** privacy@netplay.net.br
 - **General support:** support@netplay.net.br
-- **Website:** omniplay.com.br
+- **Website:** omni.netplay.net.br/landing

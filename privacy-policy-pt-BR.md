@@ -5,7 +5,7 @@
 
 ## 1. Quem somos
 
-Esta Política de Privacidade descreve como a **Netplay Tecnologia LTDA**, inscrita no CNPJ XX.XXX.XXX/0001-XX, com sede em [cidade/UF], doravante denominada "**Netplay**" ou "**nós**", coleta, utiliza, armazena e protege os dados pessoais dos usuários do aplicativo móvel **OmniPlay** (doravante "**Aplicativo**") quando você o utiliza no contexto profissional como atendente vinculado a uma empresa cliente da plataforma OmniPlay.
+Esta Política de Privacidade descreve como a **Internet Play Ltda**, inscrita no CNPJ 09.356.818/0001-16, com sede em [cidade/UF], doravante denominada "**Netplay**" ou "**nós**", coleta, utiliza, armazena e protege os dados pessoais dos usuários do aplicativo móvel **OmniPlay** (doravante "**Aplicativo**") quando você o utiliza no contexto profissional como atendente vinculado a uma empresa cliente da plataforma OmniPlay.
 
 A Netplay atua como **operadora** dos dados pessoais dos clientes finais (os contatos que recebem atendimento), sendo que o **controlador** desses dados é a empresa cliente que utiliza a plataforma OmniPlay para realizar atendimentos. Em relação aos dados dos próprios atendentes (você, usuário do Aplicativo), a Netplay atua como **controladora**.
 
@@ -130,7 +130,7 @@ Podemos atualizar esta Política periodicamente. Quando houver mudanças relevan
 - Por e-mail (para a conta corporativa cadastrada)
 - Por aviso no Aplicativo na próxima abertura
 
-A versão sempre atualizada estará disponível em **omniplay.com.br/privacidade**.
+A versão sempre atualizada estará disponível em **julianotarga.github.io/omniplay-privacy**.
 
 ## 14. Encarregado de Dados (DPO)
 
@@ -148,4 +148,4 @@ Para qualquer dúvida sobre esta Política ou sobre o tratamento dos seus dados:
 
 - **E-mail:** privacidade@netplay.net.br
 - **Suporte geral:** suporte@netplay.net.br
-- **Website:** omniplay.com.br
+- **Website:** omni.netplay.net.br/landing
